@@ -1,0 +1,344 @@
+/*
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+*/
+body{
+	background:url(../images/bg11.jpg),no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+body a{
+transition:0.5s all;
+-webkit-transition:0.5s all;
+-moz-transition:0.5s all;
+-o-transition:0.5s all;
+-ms-transition:0.5s all;
+font-weight:400;
+
+}
+input[type="button"],input[type="submit"]{
+transition:0.5s all;
+-webkit-transition:0.5s all;
+-moz-transition:0.5s all;
+-o-transition:0.5s all;
+-ms-transition:0.5s all;
+
+}
+h1,h2,h3,h4,h5,h6{
+margin:0;
+font-weight:400;
+transition:0.5s all;
+-webkit-transition:0.5s all;
+-moz-transition:0.5s all;
+-o-transition:0.5s all;
+-ms-transition:0.5s all;
+
+}
+.clear {
+clear:both;
+}
+p{
+margin:0;
+
+}
+
+ul{
+margin:0;
+padding:0;
+}
+
+label{
+margin:0;
+}
+img {
+    width: 100%;
+}
+
+.sam{
+	color: #fff;
+	font-style: sans-serif;
+
+}
+@font-face {
+  font-family:'Josefin Sans';
+  src: url('../fonts/JosefinSans-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family:'Raleway';
+  src: url('../fonts/Raleway-Regular.ttf') format('truetype');
+}
+/*--/Reset code--*/
+.wthree-heading h1 {
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: capitalize;
+	letter-spacing: 2px;
+    color: #fff;
+	padding: 1em 0 1em;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.wthree-container {
+    display: flex;
+	justify-content: center;
+}
+.agileits-2 h2 {
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+    color: #fff;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.wthree-form {
+    flex-basis: 350px;
+    padding: 5em;
+	background: rgba(15, 15, 15, 0.81);
+	box-shadow: 3px 3px #ccc;
+}
+.wthree-form input[type="text"] {
+	font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    float: left;
+    width: 85%;
+    margin: 0 auto 3em;
+    padding: 0.1em 10px;
+    line-height: 40px;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    color: #000;
+	font-family: 'Raleway', sans-serif;
+}
+.wthree-form  input[type="password"]{
+	font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    float: left;
+    width: 85%;
+    margin: 0 auto 2em;
+    padding:  0.1em 10px;
+    line-height: 40px;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    color: #000;
+	font-family: 'Raleway', sans-serif;
+}
+span .fa {
+    font-size: 16px;
+    float: left;
+    background: #58dbf1;
+    color: #fff;
+    text-align: center;
+    width: 15%;
+    line-height: 40px;
+    border: none;
+    box-sizing: border-box;
+    outline: none;
+    padding: 0.1em;
+}
+.w3l span a {
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 1px;
+    display: block;
+    padding: 0 0 30px;
+    color: #fff;
+	font-family:'Josefin Sans', sans-serif;
+}
+.w3l-submit input[type="submit"] {
+	font-size: 23px;
+	font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+	letter-spacing: 3px;
+	padding: 5px;
+    width: 60%;
+    margin: 0 auto;
+	display: block;
+    border: 2px solid transparent;
+    outline: none;
+	color: #fff;
+    cursor: pointer;
+	background-color: #157e90;
+	font-family: 'Raleway', sans-serif;
+	-webkit-transition: 0.5s ease-in;
+	-moz-transition: 0.5s ease-in;
+	-o-transition: 0.5s ease-in;
+	-ms-transition: 0.5s ease-in;
+	transition: 0.5s ease-in;
+
+
+}
+.w3l-submit input[type="submit"]:hover{
+	border: 2px solid #fff;
+	background: #033127;
+	-webkit-transition: 0.5s ease-in;
+	-moz-transition: 0.5s ease-in;
+	-o-transition: 0.5s ease-in;
+	-ms-transition: 0.5s ease-in;
+	transition: 0.5s ease-in;
+}
+.w32-submit input[type="submit"] {
+		font-size: 23px;
+		font-weight: 500;
+	    text-transform: uppercase;
+	    text-align: center;
+		letter-spacing: 3px;
+		padding: 5px;
+	    width: 60%;
+	    margin: 0 auto;
+		display: block;
+	    border: 2px solid transparent;
+	    outline: none;
+		color: #fff;
+	    cursor: pointer;
+		background-color: #157e90;
+		font-family: 'Raleway', sans-serif;
+		-webkit-transition: 0.5s ease-in;
+		-moz-transition: 0.5s ease-in;
+		-o-transition: 0.5s ease-in;
+		-ms-transition: 0.5s ease-in;
+		transition: 0.5s ease-in;
+
+
+	}
+	.w32-submit input[type="submit"]:hover{
+		border: 2px solid #fff;
+		background: #033127;
+		-webkit-transition: 0.5s ease-in;
+		-moz-transition: 0.5s ease-in;
+		-o-transition: 0.5s ease-in;
+		-ms-transition: 0.5s ease-in;
+		transition: 0.5s ease-in;
+	}
+.agileits-footer p {
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    padding: 5em 0 0;
+	color: #fff;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.agileits-footer a {
+	font-size: 15px;
+	font-weight: 500;
+    text-decoration: none;
+	color: #fff;
+    cursor: pointer;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.agileits-footer a:hover{
+	color: #20f414;
+}
+/*--responsive--*/
+@media(max-width:1920px){
+
+}
+@media(max-width:1680){
+
+}
+@media(max-width:1600px){
+
+}
+
+@media(max-width:1440px){
+
+}
+@media(max-width:1366){
+
+}
+@media(max-width:1280px){
+
+}
+
+@media(max-width:1080px){
+
+}
+@media(max-width:1050px){
+
+}
+@media(max-width:1024px){
+
+}
+@media(max-width:991px){
+
+}
+@media(max-width:900px){
+
+}
+@media(max-width:800px){
+
+}
+@media(max-width:768px){
+
+}
+@media(max-width:736px){
+
+}
+@media(max-width:667px){
+
+}
+@media(max-width:640px){
+
+}
+@media(max-width:600px){
+	.wthree-heading h1 {
+		font-size: 45px;
+	}
+}
+@media(max-width:568px){
+	.wthree-form {
+		padding: 4em;
+	}
+}
+@media(max-width:480px){
+	.wthree-heading h1 {
+		font-size: 35px;
+	}
+	.wthree-form {
+    flex-basis: 300px;
+	}
+}
+@media(max-width:414px){
+	.wthree-heading h1 {
+    font-size: 30px;
+	}
+	.wthree-form {
+    flex-basis: 250px;
+	}
+}
+@media(max-width:384px){
+	.wthree-heading h1 {
+    font-size: 28px;
+	}
+	.wthree-form {
+    flex-basis: 220px;
+	}
+	.wthree-form {
+    flex-basis: 230px;
+	}
+}
+@media(max-width:375px){
+
+}
+@media(max-width:320px){
+
+
+}
+/*--/responsive--*/
